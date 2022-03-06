@@ -1,0 +1,23 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 840px !important;
+  }
+}
+
+footer {
+  height: 3rem;
+  border-top: solid 0.1rem;
+  border-top-color: rgba(0, 0, 0, 0.125);
+}
+
+.deckgo-highlight-code-carbon {
+  box-shadow: none !important;
+}
+
+.mardown-content {
+  text-align: justify;
+}
+
+.photo-credit {
+  font-size: 0.75rem;
+}
