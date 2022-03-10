@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlogPost renders correctly 1`] = `
+<div
+  className="d-flex flex-column min-vh-100 container"
+>
+  <main
+    className="flex-fill"
+  >
+    <p
+      className="my-4 text-muted d-inline-block float-start"
+    >
+      <i
+        className="bi bi-calendar-date"
+      />
+       25-JUL-2021
+    </p>
+    <p
+      className="my-4 text-muted d-inline-block float-end"
+    >
+      <i
+        className="bi bi-clock"
+      />
+       
+       2
+       min
+    </p>
+    <div
+      className="gatsby-image-wrapper gatsby-image-wrapper-constrained mb-1"
+      data-gatsby-image-wrapper=""
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "display": "inline-block",
+          "overflow": "hidden",
+          "position": "relative",
+          "verticalAlign": "top",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "display": "block",
+            "maxWidth": 4599,
+          }
+        }
+      >
+        <img
+          alt=""
+          aria-hidden="true"
+          role="presentation"
+          src="data:image/svg+xml;charset=utf-8,%3Csvg height='3066' width='4599' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E"
+          style={
+            Object {
+              "display": "block",
+              "maxWidth": "100%",
+              "position": "static",
+            }
+          }
+        />
+      </div>
+      <img
+        alt=""
+        aria-hidden={true}
+        data-placeholder-image=""
+        decoding="async"
+        src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEFAgT/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAdOajdRMFn//xAAZEAEAAwEBAAAAAAAAAAAAAAABAAIRAxL/2gAIAQEAAQUC42SLtG4PqblbOv8A/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAABEh/9oACAECAQE/AdV//8QAGxAAAgIDAQAAAAAAAAAAAAAAABEBIRAxUeH/2gAIAQEABj8ChpFS73ws9JrH/8QAGhABAAMBAQEAAAAAAAAAAAAAAQARMUEhcf/aAAgBAQABPyFoKwzv2DXat7YrSL7DHjkAZpvsVVn/2gAMAwEAAgADAAAAEK8f/8QAFxEBAAMAAAAAAAAAAAAAAAAAABEhUf/aAAgBAwEBPxCsQ//EABcRAQEBAQAAAAAAAAAAAAAAAAEAETH/2gAIAQIBAT8QVcbV/8QAGxABAQADAAMAAAAAAAAAAAAAAREAITFBUYH/2gAIAQEAAT8QKi92A29aDN48SKG9Z4vMrBYMDLMEeLVBFvfmWoUOkEs5iZ1c/9k="
+        style={
+          Object {
+            "height": "100%",
+            "left": 0,
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+          }
+        }
+      />
+      <picture>
+        <source
+          data-srcset="/static/4bec0ac41e751b4b29a53efaf856c49c/9d718/third-post.avif 1150w,/static/4bec0ac41e751b4b29a53efaf856c49c/77a40/third-post.avif 2300w,/static/4bec0ac41e751b4b29a53efaf856c49c/51f2b/third-post.avif 4599w"
+          sizes="(min-width: 4599px) 4599px, 100vw"
+          type="image/avif"
+        />
+        <source
+          data-srcset="/static/4bec0ac41e751b4b29a53efaf856c49c/5bd91/third-post.webp 1150w,/static/4bec0ac41e751b4b29a53efaf856c49c/8dc8c/third-post.webp 2300w,/static/4bec0ac41e751b4b29a53efaf856c49c/ae069/third-post.webp 4599w"
+          sizes="(min-width: 4599px) 4599px, 100vw"
+          type="image/webp"
+        />
+        <img
+          alt=""
+          data-gatsby-image-ssr=""
+          data-main-image=""
+          data-src="/static/4bec0ac41e751b4b29a53efaf856c49c/18bb4/third-post.jpg"
+          data-srcset="/static/4bec0ac41e751b4b29a53efaf856c49c/33c6c/third-post.jpg 1150w,/static/4bec0ac41e751b4b29a53efaf856c49c/02d84/third-post.jpg 2300w,/static/4bec0ac41e751b4b29a53efaf856c49c/18bb4/third-post.jpg 4599w"
+          decoding="async"
+          loading="lazy"
+          onLoad={[Function]}
+          sizes="(min-width: 4599px) 4599px, 100vw"
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "height": "100%",
+              "left": 0,
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "opacity": 0,
+              "position": "absolute",
+              "top": 0,
+              "transform": "translateZ(0)",
+              "transition": "opacity 250ms linear",
+              "width": "100%",
+              "willChange": "opacity",
+            }
+          }
+        />
+      </picture>
+      <noscript>
+        <picture>
+          <source
+            sizes="(min-width: 4599px) 4599px, 100vw"
+            srcSet="/static/4bec0ac41e751b4b29a53efaf856c49c/9d718/third-post.avif 1150w,/static/4bec0ac41e751b4b29a53efaf856c49c/77a40/third-post.avif 2300w,/static/4bec0ac41e751b4b29a53efaf856c49c/51f2b/third-post.avif 4599w"
+            type="image/avif"
+          />
+          <source
+            sizes="(min-width: 4599px) 4599px, 100vw"
+            srcSet="/static/4bec0ac41e751b4b29a53efaf856c49c/5bd91/third-post.webp 1150w,/static/4bec0ac41e751b4b29a53efaf856c49c/8dc8c/third-post.webp 2300w,/static/4bec0ac41e751b4b29a53efaf856c49c/ae069/third-post.webp 4599w"
+            type="image/webp"
+          />
+          <img
+            alt=""
+            data-gatsby-image-ssr=""
+            data-main-image=""
+            decoding="async"
+            loading="lazy"
+            onLoad={[Function]}
+            sizes="(min-width: 4599px) 4599px, 100vw"
+            src="/static/4bec0ac41e751b4b29a53efaf856c49c/18bb4/third-post.jpg"
+            srcSet="/static/4bec0ac41e751b4b29a53efaf856c49c/33c6c/third-post.jpg 1150w,/static/4bec0ac41e751b4b29a53efaf856c49c/02d84/third-post.jpg 2300w,/static/4bec0ac41e751b4b29a53efaf856c49c/18bb4/third-post.jpg 4599w"
+            style={
+              Object {
+                "backgroundColor": undefined,
+                "height": "100%",
+                "left": 0,
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "opacity": 0,
+                "position": "absolute",
+                "top": 0,
+                "transform": "translateZ(0)",
+                "transition": "opacity 250ms linear",
+                "width": "100%",
+                "willChange": "opacity",
+              }
+            }
+          />
+        </picture>
+      </noscript>
+      <script
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "const t=\\"undefined\\"!=typeof HTMLImageElement&&\\"loading\\"in HTMLImageElement.prototype;if(t){const t=document.querySelectorAll(\\"img[data-main-image]\\");for(let e of t){e.dataset.src&&(e.setAttribute(\\"src\\",e.dataset.src),e.removeAttribute(\\"data-src\\")),e.dataset.srcset&&(e.setAttribute(\\"srcset\\",e.dataset.srcset),e.removeAttribute(\\"data-srcset\\"));const t=e.parentNode.querySelectorAll(\\"source[data-srcset]\\");for(let e of t)e.setAttribute(\\"srcset\\",e.dataset.srcset),e.removeAttribute(\\"data-srcset\\");e.complete&&(e.style.opacity=1)}}",
+          }
+        }
+        type="module"
+      />
+    </div>
+    <p
+      className="text-end photo-credit"
+    >
+      Photo by 
+      <a
+        href="https://unsplash.com/@alschim?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      >
+        Alexander Schimmeck
+      </a>
+       on
+       
+      <a
+        href="https://unsplash.com/s/photos/third-post?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      >
+        Unsplash
+      </a>
+    </p>
+    <div
+      className="mardown-content"
+    >
+      <h2
+        id="Third-Post"
+        style={
+          Object {
+            "position": "relative",
+          }
+        }
+      >
+        Third Post
+        <a
+          aria-label="Third Post permalink"
+          className="anchor after"
+          href="#Third-Post"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            height="16"
+            version="1.1"
+            viewBox="0 0 16 16"
+            width="16"
+          >
+            <path
+              d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </a>
+      </h2>
+      <p>
+        Wow look at all this content. How do they do it?
+      </p>
+      <deckgo-highlight-code
+        language="java"
+        line-numbers="true"
+        terminal="none"
+        theme="vscode"
+      >
+        
+          
+        <code
+          slot="code"
+        >
+          class Hello {
+    public static void main(String args[]){
+     System.out.println("Hello Java");
+    }
+}
+
+        </code>
+        
+        
+      </deckgo-highlight-code>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et mi id eros laoreet semper. Aenean dapibus nulla arcu, id vestibulum lacus lobortis at. Phasellus maximus quam et vulputate rhoncus. Proin at euismod erat, quis sodales massa. Etiam interdum viverra eros, sit amet suscipit tellus euismod mollis. Nunc orci sem, fringilla nec mauris non, ornare vulputate arcu. In vitae convallis urna. Morbi justo augue, maximus eget sem eu, blandit condimentum magna. Nunc nec maximus orci. Donec laoreet imperdiet dui nec accumsan. Nulla facilisi. Etiam a nibh ut diam porta rhoncus eu eget augue. Vestibulum convallis ligula et diam tempus, ultrices scelerisque nibh euismod. Donec placerat malesuada libero, sit amet aliquet libero.
+      </p>
+      <p>
+        Pellentesque finibus ipsum fermentum, porttitor nunc vitae, finibus libero. Nam gravida, massa in ornare blandit, odio enim eleifend quam, vitae finibus leo odio in purus. Morbi mollis dolor nec semper sodales. Praesent placerat velit risus, sit amet vestibulum risus posuere eleifend. Vivamus tempor sodales egestas. Donec eget orci vestibulum dolor eleifend viverra id ut lacus. Nunc sagittis, lectus at interdum mattis, purus nibh blandit nulla, eu fringilla arcu lorem at orci. Morbi ultrices faucibus dui. Vivamus justo nisi, eleifend nec eros at, fringilla iaculis arcu. Vestibulum rhoncus posuere ipsum, sed ultricies dui facilisis ut. Praesent malesuada lectus lorem, eget auctor orci elementum eget. Nunc scelerisque tellus sit amet rhoncus scelerisque. Etiam dignissim, nisl et consequat pharetra, ex magna venenatis eros, at gravida odio enim vitae nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam erat volutpat.
+      </p>
+      <p>
+        Aliquam venenatis metus ac consectetur tempus. Cras vitae suscipit dui. In hac habitasse platea dictumst. Sed ac nisi eu nulla iaculis mattis non sit amet quam. Phasellus posuere lobortis consectetur. Duis et nibh et risus consequat luctus. Fusce lobortis, urna ut scelerisque suscipit, arcu urna accumsan metus, eu sodales libero est quis sem.
+      </p>
+      <p>
+        Morbi imperdiet feugiat feugiat. In hac habitasse platea dictumst. Vivamus ut pellentesque ante. Morbi porta velit lorem. Donec pharetra ex turpis, sit amet posuere est luctus eu. Phasellus eu lacinia est. Ut id feugiat lorem, eget efficitur velit. Nullam semper, ipsum sed bibendum eleifend, sapien est sodales nunc, a faucibus arcu risus at augue. Maecenas elementum magna quam, eu pulvinar elit luctus eu. Donec pharetra elit erat, sit amet venenatis erat condimentum ac. Nulla mattis sapien sit amet justo aliquet, ut mattis metus consectetur. Sed odio sem, maximus at feugiat eget, rutrum vitae magna. Etiam ultrices id justo quis iaculis. In elementum ipsum sit amet tellus placerat vestibulum. Nulla in pretium enim.
+      </p>
+      <p>
+        Morbi egestas lacus non sem vestibulum viverra. Cras tincidunt iaculis ullamcorper. Nulla facilisi. Nullam ac vehicula mauris. Aliquam aliquet consequat enim nec pharetra. Donec tincidunt tortor sed justo viverra pellentesque. Cras posuere, lectus ornare tempus sodales, risus erat iaculis tortor, at consectetur eros odio vitae purus. Cras vestibulum dolor eget metus elementum condimentum. Morbi efficitur tortor sed efficitur laoreet. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Donec interdum tortor sit amet malesuada tincidunt. Morbi sapien ante, lobortis non risus eu, egestas dictum felis. Nam tincidunt nisi id est tempor lobortis. In nec blandit neque.
+      </p>
+    </div>
+  </main>
+  <footer
+    className="footer text-center pt-2"
+  >
+    <span
+      className="text-muted"
+    >
+      © 
+      2022
+    </span>
+  </footer>
+</div>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageLayout renders correctly 1`] = `
+<div
+  className="d-flex flex-column min-vh-100 container"
+>
+  <main
+    className="flex-fill"
+  />
+  <footer
+    className="footer text-center pt-2"
+  >
+    <span
+      className="text-muted"
+    >
+      © 
+      2022
+    </span>
+  </footer>
+</div>
+`;

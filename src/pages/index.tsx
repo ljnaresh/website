@@ -42,8 +42,8 @@ const BlogPostList = ({ data }: DataProps) => {
         <Input
           placeholder='Search or filter posts based on tags'
           className='mt-4'
-          onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
-            setQuery(e.target.value);
+          onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
+            setQuery(event.target.value);
           }}
         ></Input>
         {posts.map((post) => (

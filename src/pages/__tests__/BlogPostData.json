@@ -1,0 +1,62 @@
+{
+  "data": {
+    "mdx": {
+      "frontmatter": {
+        "title": "Third Post",
+        "date": "25-Jul-2021",
+        "hero_image": {
+          "parent": null,
+          "children": [
+            {
+              "id": "75c424b0-2743-5733-9c31-20c81f371388"
+            }
+          ],
+          "id": "370aba08-b75e-5bd9-a52b-65f195fb8840",
+          "internal": {
+            "content": null,
+            "description": "File \"posts/third-post/third-post.jpg\"",
+            "ignoreType": null,
+            "mediaType": "image/jpeg"
+          },
+          "childImageSharp": {
+            "gatsbyImageData": {
+              "layout": "constrained",
+              "placeholder": {
+                "fallback": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEFAgT/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAdOajdRMFn//xAAZEAEAAwEBAAAAAAAAAAAAAAABAAIRAxL/2gAIAQEAAQUC42SLtG4PqblbOv8A/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAABEh/9oACAECAQE/AdV//8QAGxAAAgIDAQAAAAAAAAAAAAAAABEBIRAxUeH/2gAIAQEABj8ChpFS73ws9JrH/8QAGhABAAMBAQEAAAAAAAAAAAAAAQARMUEhcf/aAAgBAQABPyFoKwzv2DXat7YrSL7DHjkAZpvsVVn/2gAMAwEAAgADAAAAEK8f/8QAFxEBAAMAAAAAAAAAAAAAAAAAABEhUf/aAAgBAwEBPxCsQ//EABcRAQEBAQAAAAAAAAAAAAAAAAEAETH/2gAIAQIBAT8QVcbV/8QAGxABAQADAAMAAAAAAAAAAAAAAREAITFBUYH/2gAIAQEAAT8QKi92A29aDN48SKG9Z4vMrBYMDLMEeLVBFvfmWoUOkEs5iZ1c/9k="
+              },
+              "images": {
+                "fallback": {
+                  "src": "/static/4bec0ac41e751b4b29a53efaf856c49c/18bb4/third-post.jpg",
+                  "srcSet": "/static/4bec0ac41e751b4b29a53efaf856c49c/33c6c/third-post.jpg 1150w,\n/static/4bec0ac41e751b4b29a53efaf856c49c/02d84/third-post.jpg 2300w,\n/static/4bec0ac41e751b4b29a53efaf856c49c/18bb4/third-post.jpg 4599w",
+                  "sizes": "(min-width: 4599px) 4599px, 100vw"
+                },
+                "sources": [
+                  {
+                    "srcSet": "/static/4bec0ac41e751b4b29a53efaf856c49c/9d718/third-post.avif 1150w,\n/static/4bec0ac41e751b4b29a53efaf856c49c/77a40/third-post.avif 2300w,\n/static/4bec0ac41e751b4b29a53efaf856c49c/51f2b/third-post.avif 4599w",
+                    "type": "image/avif",
+                    "sizes": "(min-width: 4599px) 4599px, 100vw"
+                  },
+                  {
+                    "srcSet": "/static/4bec0ac41e751b4b29a53efaf856c49c/5bd91/third-post.webp 1150w,\n/static/4bec0ac41e751b4b29a53efaf856c49c/8dc8c/third-post.webp 2300w,\n/static/4bec0ac41e751b4b29a53efaf856c49c/ae069/third-post.webp 4599w",
+                    "type": "image/webp",
+                    "sizes": "(min-width: 4599px) 4599px, 100vw"
+                  }
+                ]
+              },
+              "width": 4599,
+              "height": 3066
+            }
+          }
+        },
+        "hero_image_alt_text": "",
+        "hero_image_shutterbug": "Alexander Schimmeck",
+        "hero_image_shutterbug_link": "https://unsplash.com/@alschim?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+        "hero_image_source": "Unsplash",
+        "hero_image_source_link": "https://unsplash.com/s/photos/third-post?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      },
+      "body": "var _excluded = [\"components\"];\n\nfunction _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsxRuntime classic */\n\n/* @jsx mdx */\nvar _frontmatter = {\n  \"title\": \"Third Post\",\n  \"summary\": \"Summary of the third post\",\n  \"date\": \"2021-07-25\",\n  \"hero_image\": \"./third-post.jpg\",\n  \"hero_image_alt_text\": \"\",\n  \"hero_image_shutterbug\": \"Alexander Schimmeck\",\n  \"hero_image_shutterbug_link\": \"https://unsplash.com/@alschim?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\",\n  \"hero_image_source\": \"Unsplash\",\n  \"hero_image_source_link\": \"https://unsplash.com/s/photos/third-post?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\",\n  \"tags\": \"aws, golang, s3\"\n};\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = \"wrapper\";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, _excluded);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: \"MDXLayout\"\n  }), mdx(\"h2\", {\n    \"id\": \"Third-Post\",\n    \"style\": {\n      \"position\": \"relative\"\n    }\n  }, \"Third Post\", mdx(\"a\", {\n    parentName: \"h2\",\n    \"href\": \"#Third-Post\",\n    \"aria-label\": \"Third Post permalink\",\n    \"className\": \"anchor after\"\n  }, mdx(\"svg\", {\n    parentName: \"a\",\n    \"aria-hidden\": \"true\",\n    \"focusable\": \"false\",\n    \"height\": \"16\",\n    \"version\": \"1.1\",\n    \"viewBox\": \"0 0 16 16\",\n    \"width\": \"16\"\n  }, mdx(\"path\", {\n    parentName: \"svg\",\n    \"fillRule\": \"evenodd\",\n    \"d\": \"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"\n  })))), mdx(\"p\", null, \"Wow look at all this content. How do they do it?\"), mdx(\"deckgo-highlight-code\", {\n    \"language\": \"java\",\n    \"terminal\": \"none\",\n    \"theme\": \"vscode\",\n    \"line-numbers\": \"true\"\n  }, \"\\n          \", mdx(\"code\", {\n    parentName: \"deckgo-highlight-code\",\n    \"slot\": \"code\"\n  }, \"class Hello {\\n    public static void main(String args[]){\\n     System.out.println(\\\"Hello Java\\\");\\n    }\\n}\\n\"), \"\\n        \"), mdx(\"p\", null, \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et mi id eros laoreet semper. Aenean dapibus nulla arcu, id vestibulum lacus lobortis at. Phasellus maximus quam et vulputate rhoncus. Proin at euismod erat, quis sodales massa. Etiam interdum viverra eros, sit amet suscipit tellus euismod mollis. Nunc orci sem, fringilla nec mauris non, ornare vulputate arcu. In vitae convallis urna. Morbi justo augue, maximus eget sem eu, blandit condimentum magna. Nunc nec maximus orci. Donec laoreet imperdiet dui nec accumsan. Nulla facilisi. Etiam a nibh ut diam porta rhoncus eu eget augue. Vestibulum convallis ligula et diam tempus, ultrices scelerisque nibh euismod. Donec placerat malesuada libero, sit amet aliquet libero.\"), mdx(\"p\", null, \"Pellentesque finibus ipsum fermentum, porttitor nunc vitae, finibus libero. Nam gravida, massa in ornare blandit, odio enim eleifend quam, vitae finibus leo odio in purus. Morbi mollis dolor nec semper sodales. Praesent placerat velit risus, sit amet vestibulum risus posuere eleifend. Vivamus tempor sodales egestas. Donec eget orci vestibulum dolor eleifend viverra id ut lacus. Nunc sagittis, lectus at interdum mattis, purus nibh blandit nulla, eu fringilla arcu lorem at orci. Morbi ultrices faucibus dui. Vivamus justo nisi, eleifend nec eros at, fringilla iaculis arcu. Vestibulum rhoncus posuere ipsum, sed ultricies dui facilisis ut. Praesent malesuada lectus lorem, eget auctor orci elementum eget. Nunc scelerisque tellus sit amet rhoncus scelerisque. Etiam dignissim, nisl et consequat pharetra, ex magna venenatis eros, at gravida odio enim vitae nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam erat volutpat.\"), mdx(\"p\", null, \"Aliquam venenatis metus ac consectetur tempus. Cras vitae suscipit dui. In hac habitasse platea dictumst. Sed ac nisi eu nulla iaculis mattis non sit amet quam. Phasellus posuere lobortis consectetur. Duis et nibh et risus consequat luctus. Fusce lobortis, urna ut scelerisque suscipit, arcu urna accumsan metus, eu sodales libero est quis sem.\"), mdx(\"p\", null, \"Morbi imperdiet feugiat feugiat. In hac habitasse platea dictumst. Vivamus ut pellentesque ante. Morbi porta velit lorem. Donec pharetra ex turpis, sit amet posuere est luctus eu. Phasellus eu lacinia est. Ut id feugiat lorem, eget efficitur velit. Nullam semper, ipsum sed bibendum eleifend, sapien est sodales nunc, a faucibus arcu risus at augue. Maecenas elementum magna quam, eu pulvinar elit luctus eu. Donec pharetra elit erat, sit amet venenatis erat condimentum ac. Nulla mattis sapien sit amet justo aliquet, ut mattis metus consectetur. Sed odio sem, maximus at feugiat eget, rutrum vitae magna. Etiam ultrices id justo quis iaculis. In elementum ipsum sit amet tellus placerat vestibulum. Nulla in pretium enim.\"), mdx(\"p\", null, \"Morbi egestas lacus non sem vestibulum viverra. Cras tincidunt iaculis ullamcorper. Nulla facilisi. Nullam ac vehicula mauris. Aliquam aliquet consequat enim nec pharetra. Donec tincidunt tortor sed justo viverra pellentesque. Cras posuere, lectus ornare tempus sodales, risus erat iaculis tortor, at consectetur eros odio vitae purus. Cras vestibulum dolor eget metus elementum condimentum. Morbi efficitur tortor sed efficitur laoreet. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Donec interdum tortor sit amet malesuada tincidunt. Morbi sapien ante, lobortis non risus eu, egestas dictum felis. Nam tincidunt nisi id est tempor lobortis. In nec blandit neque.\"));\n}\n;\nMDXContent.isMDXComponent = true;",
+      "timeToRead": 2
+    }
+  },
+  "extensions": {}
+}

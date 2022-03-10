@@ -1,6 +1,6 @@
 import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
 import { graphql } from 'gatsby';
-import { GatsbyImage, getImage, IGatsbyImageData, ImageDataLike } from 'gatsby-plugin-image';
+import { GatsbyImage, getImage, IGatsbyImageData } from 'gatsby-plugin-image';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import * as React from 'react';
 
@@ -15,7 +15,9 @@ type DataProps = {
       frontmatter: {
         title: string;
         date: string;
-        hero_image: ImageDataLike;
+        // TODO: Having the hero_image as type ImageDataLike fails snapshot test
+        // as the data fetched by graphql doesn't match the values of union type ImageDataLike
+        hero_image: any;
         hero_image_alt_text: string;
         hero_image_shutterbug: string;
         hero_image_shutterbug_link: string;
