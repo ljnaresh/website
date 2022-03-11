@@ -10,6 +10,8 @@ footer {
   border-top-color: rgba(0, 0, 0, 0.125);
 }
 
+/* TODO: Move the styles to modules and import them in components using webpack
+or consider using styled components as they support typescript */
 .deckgo-highlight-code-carbon {
   box-shadow: none !important;
 }

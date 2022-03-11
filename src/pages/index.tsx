@@ -92,7 +92,7 @@ export default BlogPostList;
 
 export const query = graphql`
   {
-    allMdx(sort: { fields: frontmatter___date, order: DESC }) {
+    allMdx(sort: { fields: frontmatter___date, order: DESC }, filter: { frontmatter: { draft: { eq: false } } }) {
       nodes {
         frontmatter {
           date(formatString: "MMMM D, YYYY")

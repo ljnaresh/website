@@ -5,6 +5,7 @@ import { MDXRenderer } from 'gatsby-plugin-mdx';
 import * as React from 'react';
 
 import PageLayout from '../components/page-layout/PageLayout';
+import NotFoundPage from './404';
 
 // Load the component for code highlighting
 deckDeckGoHighlightElement();
@@ -23,6 +24,7 @@ type DataProps = {
         hero_image_shutterbug_link: string;
         hero_image_source: string;
         hero_image_source_link: string;
+        draft: boolean;
       };
       body: string;
       timeToRead: number;
@@ -32,6 +34,10 @@ type DataProps = {
 
 const BlogPost = ({ data }: DataProps) => {
   const post = data.mdx;
+
+  if (post.frontmatter.draft) {
+    return <NotFoundPage></NotFoundPage>;
+  }
 
   // Typecasting is required here as getImage can return undefined or IGatsbyImageData
   // and image attribute in GatsbyImage component will only accept IGatsbyImageData
@@ -74,6 +80,7 @@ export const query = graphql`
         hero_image_shutterbug_link
         hero_image_source
         hero_image_source_link
+        draft
       }
       body
       timeToRead

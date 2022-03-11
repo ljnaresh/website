@@ -13,7 +13,7 @@ exports[`BlogPost renders correctly 1`] = `
       <i
         className="bi bi-calendar-date"
       />
-       25-JUL-2021
+       21-FEB-2022
     </p>
     <p
       className="my-4 text-muted d-inline-block float-end"
@@ -22,7 +22,7 @@ exports[`BlogPost renders correctly 1`] = `
         className="bi bi-clock"
       />
        
-       2
+       1
        min
     </p>
     <div
@@ -42,7 +42,7 @@ exports[`BlogPost renders correctly 1`] = `
         style={
           Object {
             "display": "block",
-            "maxWidth": 4599,
+            "maxWidth": 6000,
           }
         }
       >
@@ -50,7 +50,7 @@ exports[`BlogPost renders correctly 1`] = `
           alt=""
           aria-hidden="true"
           role="presentation"
-          src="data:image/svg+xml;charset=utf-8,%3Csvg height='3066' width='4599' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E"
+          src="data:image/svg+xml;charset=utf-8,%3Csvg height='4000' width='6000' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E"
           style={
             Object {
               "display": "block",
@@ -65,7 +65,7 @@ exports[`BlogPost renders correctly 1`] = `
         aria-hidden={true}
         data-placeholder-image=""
         decoding="async"
-        src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEFAgT/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAdOajdRMFn//xAAZEAEAAwEBAAAAAAAAAAAAAAABAAIRAxL/2gAIAQEAAQUC42SLtG4PqblbOv8A/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAABEh/9oACAECAQE/AdV//8QAGxAAAgIDAQAAAAAAAAAAAAAAABEBIRAxUeH/2gAIAQEABj8ChpFS73ws9JrH/8QAGhABAAMBAQEAAAAAAAAAAAAAAQARMUEhcf/aAAgBAQABPyFoKwzv2DXat7YrSL7DHjkAZpvsVVn/2gAMAwEAAgADAAAAEK8f/8QAFxEBAAMAAAAAAAAAAAAAAAAAABEhUf/aAAgBAwEBPxCsQ//EABcRAQEBAQAAAAAAAAAAAAAAAAEAETH/2gAIAQIBAT8QVcbV/8QAGxABAQADAAMAAAAAAAAAAAAAAREAITFBUYH/2gAIAQEAAT8QKi92A29aDN48SKG9Z4vMrBYMDLMEeLVBFvfmWoUOkEs5iZ1c/9k="
+        src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQDBQb/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABlrWWzc+MhX//xAAbEAABBAMAAAAAAAAAAAAAAAACAAQREgEUM//aAAgBAQABBQIC2GxAasmHNwMKk5//xAAXEQADAQAAAAAAAAAAAAAAAAAAARIh/9oACAEDAQE/AVpDP//EABcRAAMBAAAAAAAAAAAAAAAAAAABEiH/2gAIAQIBAT8BeFo//8QAHhAAAgEDBQAAAAAAAAAAAAAAAAECERIiITFRcYH/2gAIAQEABj8Ck7pV4KrU2JvwShj0ZH//xAAbEAEBAQEBAAMAAAAAAAAAAAABEQAhMUFR0f/aAAgBAQABPyHiwKPH5kUAe0zDGHCfbeNMjz8Mlqqcpzf/2gAMAwEAAgADAAAAEKcv/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARUf/aAAgBAwEBPxAiy5X/xAAXEQEBAQEAAAAAAAAAAAAAAAABABFR/9oACAECAQE/EGjbtf/EABsQAQADAAMBAAAAAAAAAAAAAAEAESExgbFB/9oACAEBAAE/EHTKJqA5HgueMFpXyKp8jqoGkmoXUlpQXDqeqwgd+ncaLNg11P/Z"
         style={
           Object {
             "height": "100%",
@@ -78,25 +78,25 @@ exports[`BlogPost renders correctly 1`] = `
       />
       <picture>
         <source
-          data-srcset="/static/4bec0ac41e751b4b29a53efaf856c49c/9d718/third-post.avif 1150w,/static/4bec0ac41e751b4b29a53efaf856c49c/77a40/third-post.avif 2300w,/static/4bec0ac41e751b4b29a53efaf856c49c/51f2b/third-post.avif 4599w"
-          sizes="(min-width: 4599px) 4599px, 100vw"
+          data-srcset="/static/4d90967ddb1f701231306b45a61cf356/c2329/first-post.avif 1500w,/static/4d90967ddb1f701231306b45a61cf356/cd808/first-post.avif 3000w,/static/4d90967ddb1f701231306b45a61cf356/45c09/first-post.avif 6000w"
+          sizes="(min-width: 6000px) 6000px, 100vw"
           type="image/avif"
         />
         <source
-          data-srcset="/static/4bec0ac41e751b4b29a53efaf856c49c/5bd91/third-post.webp 1150w,/static/4bec0ac41e751b4b29a53efaf856c49c/8dc8c/third-post.webp 2300w,/static/4bec0ac41e751b4b29a53efaf856c49c/ae069/third-post.webp 4599w"
-          sizes="(min-width: 4599px) 4599px, 100vw"
+          data-srcset="/static/4d90967ddb1f701231306b45a61cf356/2b8d7/first-post.webp 1500w,/static/4d90967ddb1f701231306b45a61cf356/48dc9/first-post.webp 3000w,/static/4d90967ddb1f701231306b45a61cf356/5de91/first-post.webp 6000w"
+          sizes="(min-width: 6000px) 6000px, 100vw"
           type="image/webp"
         />
         <img
           alt=""
           data-gatsby-image-ssr=""
           data-main-image=""
-          data-src="/static/4bec0ac41e751b4b29a53efaf856c49c/18bb4/third-post.jpg"
-          data-srcset="/static/4bec0ac41e751b4b29a53efaf856c49c/33c6c/third-post.jpg 1150w,/static/4bec0ac41e751b4b29a53efaf856c49c/02d84/third-post.jpg 2300w,/static/4bec0ac41e751b4b29a53efaf856c49c/18bb4/third-post.jpg 4599w"
+          data-src="/static/4d90967ddb1f701231306b45a61cf356/e49ee/first-post.jpg"
+          data-srcset="/static/4d90967ddb1f701231306b45a61cf356/3564b/first-post.jpg 1500w,/static/4d90967ddb1f701231306b45a61cf356/8a549/first-post.jpg 3000w,/static/4d90967ddb1f701231306b45a61cf356/e49ee/first-post.jpg 6000w"
           decoding="async"
           loading="lazy"
           onLoad={[Function]}
-          sizes="(min-width: 4599px) 4599px, 100vw"
+          sizes="(min-width: 6000px) 6000px, 100vw"
           style={
             Object {
               "backgroundColor": undefined,
@@ -118,13 +118,13 @@ exports[`BlogPost renders correctly 1`] = `
       <noscript>
         <picture>
           <source
-            sizes="(min-width: 4599px) 4599px, 100vw"
-            srcSet="/static/4bec0ac41e751b4b29a53efaf856c49c/9d718/third-post.avif 1150w,/static/4bec0ac41e751b4b29a53efaf856c49c/77a40/third-post.avif 2300w,/static/4bec0ac41e751b4b29a53efaf856c49c/51f2b/third-post.avif 4599w"
+            sizes="(min-width: 6000px) 6000px, 100vw"
+            srcSet="/static/4d90967ddb1f701231306b45a61cf356/c2329/first-post.avif 1500w,/static/4d90967ddb1f701231306b45a61cf356/cd808/first-post.avif 3000w,/static/4d90967ddb1f701231306b45a61cf356/45c09/first-post.avif 6000w"
             type="image/avif"
           />
           <source
-            sizes="(min-width: 4599px) 4599px, 100vw"
-            srcSet="/static/4bec0ac41e751b4b29a53efaf856c49c/5bd91/third-post.webp 1150w,/static/4bec0ac41e751b4b29a53efaf856c49c/8dc8c/third-post.webp 2300w,/static/4bec0ac41e751b4b29a53efaf856c49c/ae069/third-post.webp 4599w"
+            sizes="(min-width: 6000px) 6000px, 100vw"
+            srcSet="/static/4d90967ddb1f701231306b45a61cf356/2b8d7/first-post.webp 1500w,/static/4d90967ddb1f701231306b45a61cf356/48dc9/first-post.webp 3000w,/static/4d90967ddb1f701231306b45a61cf356/5de91/first-post.webp 6000w"
             type="image/webp"
           />
           <img
@@ -134,9 +134,9 @@ exports[`BlogPost renders correctly 1`] = `
             decoding="async"
             loading="lazy"
             onLoad={[Function]}
-            sizes="(min-width: 4599px) 4599px, 100vw"
-            src="/static/4bec0ac41e751b4b29a53efaf856c49c/18bb4/third-post.jpg"
-            srcSet="/static/4bec0ac41e751b4b29a53efaf856c49c/33c6c/third-post.jpg 1150w,/static/4bec0ac41e751b4b29a53efaf856c49c/02d84/third-post.jpg 2300w,/static/4bec0ac41e751b4b29a53efaf856c49c/18bb4/third-post.jpg 4599w"
+            sizes="(min-width: 6000px) 6000px, 100vw"
+            src="/static/4d90967ddb1f701231306b45a61cf356/e49ee/first-post.jpg"
+            srcSet="/static/4d90967ddb1f701231306b45a61cf356/3564b/first-post.jpg 1500w,/static/4d90967ddb1f701231306b45a61cf356/8a549/first-post.jpg 3000w,/static/4d90967ddb1f701231306b45a61cf356/e49ee/first-post.jpg 6000w"
             style={
               Object {
                 "backgroundColor": undefined,
@@ -170,14 +170,14 @@ exports[`BlogPost renders correctly 1`] = `
     >
       Photo by 
       <a
-        href="https://unsplash.com/@alschim?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        href="https://unsplash.com/@andrewtneel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
       >
-        Alexander Schimmeck
+        Andrew Neel
       </a>
        on
        
       <a
-        href="https://unsplash.com/s/photos/third-post?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        href="https://unsplash.com/s/photos/blog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
       >
         Unsplash
       </a>
@@ -185,19 +185,19 @@ exports[`BlogPost renders correctly 1`] = `
     <div
       className="mardown-content"
     >
-      <h2
-        id="Third-Post"
+      <h1
+        id="Hello-World"
         style={
           Object {
             "position": "relative",
           }
         }
       >
-        Third Post
+        Hello, World!
         <a
-          aria-label="Third Post permalink"
+          aria-label="Hello World permalink"
           className="anchor after"
-          href="#Third-Post"
+          href="#Hello-World"
         >
           <svg
             aria-hidden="true"
@@ -213,12 +213,12 @@ exports[`BlogPost renders correctly 1`] = `
             />
           </svg>
         </a>
-      </h2>
+      </h1>
       <p>
-        Wow look at all this content. How do they do it?
+        This is my first blog post! Isn't it great?
       </p>
       <deckgo-highlight-code
-        language="java"
+        language="go"
         line-numbers="true"
         terminal="none"
         theme="vscode"
@@ -228,31 +228,20 @@ exports[`BlogPost renders correctly 1`] = `
         <code
           slot="code"
         >
-          class Hello {
-    public static void main(String args[]){
-     System.out.println("Hello Java");
-    }
+          
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello, World!")
 }
+
 
         </code>
         
         
       </deckgo-highlight-code>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et mi id eros laoreet semper. Aenean dapibus nulla arcu, id vestibulum lacus lobortis at. Phasellus maximus quam et vulputate rhoncus. Proin at euismod erat, quis sodales massa. Etiam interdum viverra eros, sit amet suscipit tellus euismod mollis. Nunc orci sem, fringilla nec mauris non, ornare vulputate arcu. In vitae convallis urna. Morbi justo augue, maximus eget sem eu, blandit condimentum magna. Nunc nec maximus orci. Donec laoreet imperdiet dui nec accumsan. Nulla facilisi. Etiam a nibh ut diam porta rhoncus eu eget augue. Vestibulum convallis ligula et diam tempus, ultrices scelerisque nibh euismod. Donec placerat malesuada libero, sit amet aliquet libero.
-      </p>
-      <p>
-        Pellentesque finibus ipsum fermentum, porttitor nunc vitae, finibus libero. Nam gravida, massa in ornare blandit, odio enim eleifend quam, vitae finibus leo odio in purus. Morbi mollis dolor nec semper sodales. Praesent placerat velit risus, sit amet vestibulum risus posuere eleifend. Vivamus tempor sodales egestas. Donec eget orci vestibulum dolor eleifend viverra id ut lacus. Nunc sagittis, lectus at interdum mattis, purus nibh blandit nulla, eu fringilla arcu lorem at orci. Morbi ultrices faucibus dui. Vivamus justo nisi, eleifend nec eros at, fringilla iaculis arcu. Vestibulum rhoncus posuere ipsum, sed ultricies dui facilisis ut. Praesent malesuada lectus lorem, eget auctor orci elementum eget. Nunc scelerisque tellus sit amet rhoncus scelerisque. Etiam dignissim, nisl et consequat pharetra, ex magna venenatis eros, at gravida odio enim vitae nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam erat volutpat.
-      </p>
-      <p>
-        Aliquam venenatis metus ac consectetur tempus. Cras vitae suscipit dui. In hac habitasse platea dictumst. Sed ac nisi eu nulla iaculis mattis non sit amet quam. Phasellus posuere lobortis consectetur. Duis et nibh et risus consequat luctus. Fusce lobortis, urna ut scelerisque suscipit, arcu urna accumsan metus, eu sodales libero est quis sem.
-      </p>
-      <p>
-        Morbi imperdiet feugiat feugiat. In hac habitasse platea dictumst. Vivamus ut pellentesque ante. Morbi porta velit lorem. Donec pharetra ex turpis, sit amet posuere est luctus eu. Phasellus eu lacinia est. Ut id feugiat lorem, eget efficitur velit. Nullam semper, ipsum sed bibendum eleifend, sapien est sodales nunc, a faucibus arcu risus at augue. Maecenas elementum magna quam, eu pulvinar elit luctus eu. Donec pharetra elit erat, sit amet venenatis erat condimentum ac. Nulla mattis sapien sit amet justo aliquet, ut mattis metus consectetur. Sed odio sem, maximus at feugiat eget, rutrum vitae magna. Etiam ultrices id justo quis iaculis. In elementum ipsum sit amet tellus placerat vestibulum. Nulla in pretium enim.
-      </p>
-      <p>
-        Morbi egestas lacus non sem vestibulum viverra. Cras tincidunt iaculis ullamcorper. Nulla facilisi. Nullam ac vehicula mauris. Aliquam aliquet consequat enim nec pharetra. Donec tincidunt tortor sed justo viverra pellentesque. Cras posuere, lectus ornare tempus sodales, risus erat iaculis tortor, at consectetur eros odio vitae purus. Cras vestibulum dolor eget metus elementum condimentum. Morbi efficitur tortor sed efficitur laoreet. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Donec interdum tortor sit amet malesuada tincidunt. Morbi sapien ante, lobortis non risus eu, egestas dictum felis. Nam tincidunt nisi id est tempor lobortis. In nec blandit neque.
-      </p>
     </div>
   </main>
   <footer

@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlogPost renders correctly 1`] = `
+<div
+  className="d-flex flex-column min-vh-100 container"
+>
+  <main
+    className="flex-fill"
+  >
+    <title>
+      Not found
+    </title>
+    <h1
+      className="my-4 d-flex justify-content-center"
+    >
+      Page not found 
+      <i
+        className="bi bi-emoji-frown"
+      />
+    </h1>
+    <p
+      className="d-flex justify-content-center"
+    >
+      Sorry we couldn’t find what you were looking for.
+    </p>
+    <div
+      className="text-center"
+    >
+      <a
+        className="btn btn-secondary rounded-0"
+        href="/"
+      >
+        <i
+          className="bi bi-house"
+        />
+         
+        Home
+      </a>
+    </div>
+  </main>
+  <footer
+    className="footer text-center pt-2"
+  >
+    <span
+      className="text-muted"
+    >
+      © 
+      2022
+    </span>
+  </footer>
+</div>
+`;
