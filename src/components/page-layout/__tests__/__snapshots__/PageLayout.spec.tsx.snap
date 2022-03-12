@@ -2,20 +2,24 @@
 
 exports[`PageLayout renders correctly 1`] = `
 <div
-  className="d-flex flex-column min-vh-100 container"
+  className="sc-bdvvtL lkrPRM"
 >
-  <main
-    className="flex-fill"
-  />
-  <footer
-    className="footer text-center pt-2"
+  <div
+    className="d-flex flex-column min-vh-100 container"
   >
-    <span
-      className="text-muted"
+    <main
+      className="flex-fill"
+    />
+    <footer
+      className="sc-gsDKAQ jgOvvg footer text-center pt-2"
     >
-      © 
-      2022
-    </span>
-  </footer>
+      <span
+        className="text-muted"
+      >
+        © 
+        2022
+      </span>
+    </footer>
+  </div>
 </div>
 `;

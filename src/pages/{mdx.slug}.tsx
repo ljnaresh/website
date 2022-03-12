@@ -3,12 +3,25 @@ import { graphql } from 'gatsby';
 import { GatsbyImage, getImage, IGatsbyImageData } from 'gatsby-plugin-image';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import * as React from 'react';
+import styled from 'styled-components';
 
 import PageLayout from '../components/page-layout/PageLayout';
 import NotFoundPage from './404';
 
 // Load the component for code highlighting
 deckDeckGoHighlightElement();
+
+const StyledMarkDownContent = styled.div`
+  text-align: justify;
+  box-shadow: none !important;
+  deckgo-highlight-code {
+    box-shadow: none !important;
+  }
+`;
+
+const StyledPhotoCredit = styled.p`
+  font-size: 0.75rem;
+`;
 
 type DataProps = {
   data: {
@@ -53,13 +66,13 @@ const BlogPost = ({ data }: DataProps) => {
         <i className='bi bi-clock'></i> {` ${post.timeToRead}`} min
       </p>
       <GatsbyImage image={heroImage} alt={post.frontmatter.hero_image_alt_text} className='mb-1' />
-      <p className='text-end photo-credit'>
+      <StyledPhotoCredit className='text-end'>
         Photo by <a href={post.frontmatter.hero_image_shutterbug_link}>{post.frontmatter.hero_image_shutterbug}</a> on{' '}
         <a href={post.frontmatter.hero_image_source_link}>{post.frontmatter.hero_image_source}</a>
-      </p>
-      <div className='mardown-content'>
+      </StyledPhotoCredit>
+      <StyledMarkDownContent>
         <MDXRenderer>{post.body}</MDXRenderer>
-      </div>
+      </StyledMarkDownContent>
     </PageLayout>
   );
 };

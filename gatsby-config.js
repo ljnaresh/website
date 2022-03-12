@@ -71,5 +71,6 @@ module.exports = {
       },
       __key: 'posts',
     },
+    'gatsby-plugin-styled-components',
   ],
 };

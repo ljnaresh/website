@@ -2,141 +2,104 @@
 
 exports[`BlogPost renders correctly 1`] = `
 <div
-  className="d-flex flex-column min-vh-100 container"
+  className="sc-bdvvtL lkrPRM"
 >
-  <main
-    className="flex-fill"
+  <div
+    className="d-flex flex-column min-vh-100 container"
   >
-    <p
-      className="my-4 text-muted d-inline-block float-start"
+    <main
+      className="flex-fill"
     >
-      <i
-        className="bi bi-calendar-date"
-      />
-       21-FEB-2022
-    </p>
-    <p
-      className="my-4 text-muted d-inline-block float-end"
-    >
-      <i
-        className="bi bi-clock"
-      />
-       
-       1
-       min
-    </p>
-    <div
-      className="gatsby-image-wrapper gatsby-image-wrapper-constrained mb-1"
-      data-gatsby-image-wrapper=""
-      style={
-        Object {
-          "backgroundColor": undefined,
-          "display": "inline-block",
-          "overflow": "hidden",
-          "position": "relative",
-          "verticalAlign": "top",
-        }
-      }
-    >
+      <p
+        className="my-4 text-muted d-inline-block float-start"
+      >
+        <i
+          className="bi bi-calendar-date"
+        />
+         21-FEB-2022
+      </p>
+      <p
+        className="my-4 text-muted d-inline-block float-end"
+      >
+        <i
+          className="bi bi-clock"
+        />
+         
+         1
+         min
+      </p>
       <div
+        className="gatsby-image-wrapper gatsby-image-wrapper-constrained mb-1"
+        data-gatsby-image-wrapper=""
         style={
           Object {
-            "display": "block",
-            "maxWidth": 6000,
+            "backgroundColor": undefined,
+            "display": "inline-block",
+            "overflow": "hidden",
+            "position": "relative",
+            "verticalAlign": "top",
           }
         }
       >
-        <img
-          alt=""
-          aria-hidden="true"
-          role="presentation"
-          src="data:image/svg+xml;charset=utf-8,%3Csvg height='4000' width='6000' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E"
+        <div
           style={
             Object {
               "display": "block",
-              "maxWidth": "100%",
-              "position": "static",
+              "maxWidth": 6000,
             }
           }
-        />
-      </div>
-      <img
-        alt=""
-        aria-hidden={true}
-        data-placeholder-image=""
-        decoding="async"
-        src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQDBQb/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABlrWWzc+MhX//xAAbEAABBAMAAAAAAAAAAAAAAAACAAQREgEUM//aAAgBAQABBQIC2GxAasmHNwMKk5//xAAXEQADAQAAAAAAAAAAAAAAAAAAARIh/9oACAEDAQE/AVpDP//EABcRAAMBAAAAAAAAAAAAAAAAAAABEiH/2gAIAQIBAT8BeFo//8QAHhAAAgEDBQAAAAAAAAAAAAAAAAECERIiITFRcYH/2gAIAQEABj8Ck7pV4KrU2JvwShj0ZH//xAAbEAEBAQEBAAMAAAAAAAAAAAABEQAhMUFR0f/aAAgBAQABPyHiwKPH5kUAe0zDGHCfbeNMjz8Mlqqcpzf/2gAMAwEAAgADAAAAEKcv/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARUf/aAAgBAwEBPxAiy5X/xAAXEQEBAQEAAAAAAAAAAAAAAAABABFR/9oACAECAQE/EGjbtf/EABsQAQADAAMBAAAAAAAAAAAAAAEAESExgbFB/9oACAEBAAE/EHTKJqA5HgueMFpXyKp8jqoGkmoXUlpQXDqeqwgd+ncaLNg11P/Z"
-        style={
-          Object {
-            "height": "100%",
-            "left": 0,
-            "position": "absolute",
-            "top": 0,
-            "width": "100%",
-          }
-        }
-      />
-      <picture>
-        <source
-          data-srcset="/static/4d90967ddb1f701231306b45a61cf356/c2329/first-post.avif 1500w,/static/4d90967ddb1f701231306b45a61cf356/cd808/first-post.avif 3000w,/static/4d90967ddb1f701231306b45a61cf356/45c09/first-post.avif 6000w"
-          sizes="(min-width: 6000px) 6000px, 100vw"
-          type="image/avif"
-        />
-        <source
-          data-srcset="/static/4d90967ddb1f701231306b45a61cf356/2b8d7/first-post.webp 1500w,/static/4d90967ddb1f701231306b45a61cf356/48dc9/first-post.webp 3000w,/static/4d90967ddb1f701231306b45a61cf356/5de91/first-post.webp 6000w"
-          sizes="(min-width: 6000px) 6000px, 100vw"
-          type="image/webp"
-        />
+        >
+          <img
+            alt=""
+            aria-hidden="true"
+            role="presentation"
+            src="data:image/svg+xml;charset=utf-8,%3Csvg height='4000' width='6000' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E"
+            style={
+              Object {
+                "display": "block",
+                "maxWidth": "100%",
+                "position": "static",
+              }
+            }
+          />
+        </div>
         <img
           alt=""
-          data-gatsby-image-ssr=""
-          data-main-image=""
-          data-src="/static/4d90967ddb1f701231306b45a61cf356/e49ee/first-post.jpg"
-          data-srcset="/static/4d90967ddb1f701231306b45a61cf356/3564b/first-post.jpg 1500w,/static/4d90967ddb1f701231306b45a61cf356/8a549/first-post.jpg 3000w,/static/4d90967ddb1f701231306b45a61cf356/e49ee/first-post.jpg 6000w"
+          aria-hidden={true}
+          data-placeholder-image=""
           decoding="async"
-          loading="lazy"
-          onLoad={[Function]}
-          sizes="(min-width: 6000px) 6000px, 100vw"
+          src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQDBQb/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABlrWWzc+MhX//xAAbEAABBAMAAAAAAAAAAAAAAAACAAQREgEUM//aAAgBAQABBQIC2GxAasmHNwMKk5//xAAXEQADAQAAAAAAAAAAAAAAAAAAARIh/9oACAEDAQE/AVpDP//EABcRAAMBAAAAAAAAAAAAAAAAAAABEiH/2gAIAQIBAT8BeFo//8QAHhAAAgEDBQAAAAAAAAAAAAAAAAECERIiITFRcYH/2gAIAQEABj8Ck7pV4KrU2JvwShj0ZH//xAAbEAEBAQEBAAMAAAAAAAAAAAABEQAhMUFR0f/aAAgBAQABPyHiwKPH5kUAe0zDGHCfbeNMjz8Mlqqcpzf/2gAMAwEAAgADAAAAEKcv/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARUf/aAAgBAwEBPxAiy5X/xAAXEQEBAQEAAAAAAAAAAAAAAAABABFR/9oACAECAQE/EGjbtf/EABsQAQADAAMBAAAAAAAAAAAAAAEAESExgbFB/9oACAEBAAE/EHTKJqA5HgueMFpXyKp8jqoGkmoXUlpQXDqeqwgd+ncaLNg11P/Z"
           style={
             Object {
-              "backgroundColor": undefined,
               "height": "100%",
               "left": 0,
-              "objectFit": undefined,
-              "objectPosition": undefined,
-              "opacity": 0,
               "position": "absolute",
               "top": 0,
-              "transform": "translateZ(0)",
-              "transition": "opacity 250ms linear",
               "width": "100%",
-              "willChange": "opacity",
             }
           }
         />
-      </picture>
-      <noscript>
         <picture>
           <source
+            data-srcset="/static/4d90967ddb1f701231306b45a61cf356/c2329/first-post.avif 1500w,/static/4d90967ddb1f701231306b45a61cf356/cd808/first-post.avif 3000w,/static/4d90967ddb1f701231306b45a61cf356/45c09/first-post.avif 6000w"
             sizes="(min-width: 6000px) 6000px, 100vw"
-            srcSet="/static/4d90967ddb1f701231306b45a61cf356/c2329/first-post.avif 1500w,/static/4d90967ddb1f701231306b45a61cf356/cd808/first-post.avif 3000w,/static/4d90967ddb1f701231306b45a61cf356/45c09/first-post.avif 6000w"
             type="image/avif"
           />
           <source
+            data-srcset="/static/4d90967ddb1f701231306b45a61cf356/2b8d7/first-post.webp 1500w,/static/4d90967ddb1f701231306b45a61cf356/48dc9/first-post.webp 3000w,/static/4d90967ddb1f701231306b45a61cf356/5de91/first-post.webp 6000w"
             sizes="(min-width: 6000px) 6000px, 100vw"
-            srcSet="/static/4d90967ddb1f701231306b45a61cf356/2b8d7/first-post.webp 1500w,/static/4d90967ddb1f701231306b45a61cf356/48dc9/first-post.webp 3000w,/static/4d90967ddb1f701231306b45a61cf356/5de91/first-post.webp 6000w"
             type="image/webp"
           />
           <img
             alt=""
             data-gatsby-image-ssr=""
             data-main-image=""
+            data-src="/static/4d90967ddb1f701231306b45a61cf356/e49ee/first-post.jpg"
+            data-srcset="/static/4d90967ddb1f701231306b45a61cf356/3564b/first-post.jpg 1500w,/static/4d90967ddb1f701231306b45a61cf356/8a549/first-post.jpg 3000w,/static/4d90967ddb1f701231306b45a61cf356/e49ee/first-post.jpg 6000w"
             decoding="async"
             loading="lazy"
             onLoad={[Function]}
             sizes="(min-width: 6000px) 6000px, 100vw"
-            src="/static/4d90967ddb1f701231306b45a61cf356/e49ee/first-post.jpg"
-            srcSet="/static/4d90967ddb1f701231306b45a61cf356/3564b/first-post.jpg 1500w,/static/4d90967ddb1f701231306b45a61cf356/8a549/first-post.jpg 3000w,/static/4d90967ddb1f701231306b45a61cf356/e49ee/first-post.jpg 6000w"
             style={
               Object {
                 "backgroundColor": undefined,
@@ -155,80 +118,120 @@ exports[`BlogPost renders correctly 1`] = `
             }
           />
         </picture>
-      </noscript>
-      <script
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": "const t=\\"undefined\\"!=typeof HTMLImageElement&&\\"loading\\"in HTMLImageElement.prototype;if(t){const t=document.querySelectorAll(\\"img[data-main-image]\\");for(let e of t){e.dataset.src&&(e.setAttribute(\\"src\\",e.dataset.src),e.removeAttribute(\\"data-src\\")),e.dataset.srcset&&(e.setAttribute(\\"srcset\\",e.dataset.srcset),e.removeAttribute(\\"data-srcset\\"));const t=e.parentNode.querySelectorAll(\\"source[data-srcset]\\");for(let e of t)e.setAttribute(\\"srcset\\",e.dataset.srcset),e.removeAttribute(\\"data-srcset\\");e.complete&&(e.style.opacity=1)}}",
-          }
-        }
-        type="module"
-      />
-    </div>
-    <p
-      className="text-end photo-credit"
-    >
-      Photo by 
-      <a
-        href="https://unsplash.com/@andrewtneel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-      >
-        Andrew Neel
-      </a>
-       on
-       
-      <a
-        href="https://unsplash.com/s/photos/blog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-      >
-        Unsplash
-      </a>
-    </p>
-    <div
-      className="mardown-content"
-    >
-      <h1
-        id="Hello-World"
-        style={
-          Object {
-            "position": "relative",
-          }
-        }
-      >
-        Hello, World!
-        <a
-          aria-label="Hello World permalink"
-          className="anchor after"
-          href="#Hello-World"
-        >
-          <svg
-            aria-hidden="true"
-            focusable="false"
-            height="16"
-            version="1.1"
-            viewBox="0 0 16 16"
-            width="16"
-          >
-            <path
-              d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"
-              fillRule="evenodd"
+        <noscript>
+          <picture>
+            <source
+              sizes="(min-width: 6000px) 6000px, 100vw"
+              srcSet="/static/4d90967ddb1f701231306b45a61cf356/c2329/first-post.avif 1500w,/static/4d90967ddb1f701231306b45a61cf356/cd808/first-post.avif 3000w,/static/4d90967ddb1f701231306b45a61cf356/45c09/first-post.avif 6000w"
+              type="image/avif"
             />
-          </svg>
-        </a>
-      </h1>
-      <p>
-        This is my first blog post! Isn't it great?
-      </p>
-      <deckgo-highlight-code
-        language="go"
-        line-numbers="true"
-        terminal="none"
-        theme="vscode"
+            <source
+              sizes="(min-width: 6000px) 6000px, 100vw"
+              srcSet="/static/4d90967ddb1f701231306b45a61cf356/2b8d7/first-post.webp 1500w,/static/4d90967ddb1f701231306b45a61cf356/48dc9/first-post.webp 3000w,/static/4d90967ddb1f701231306b45a61cf356/5de91/first-post.webp 6000w"
+              type="image/webp"
+            />
+            <img
+              alt=""
+              data-gatsby-image-ssr=""
+              data-main-image=""
+              decoding="async"
+              loading="lazy"
+              onLoad={[Function]}
+              sizes="(min-width: 6000px) 6000px, 100vw"
+              src="/static/4d90967ddb1f701231306b45a61cf356/e49ee/first-post.jpg"
+              srcSet="/static/4d90967ddb1f701231306b45a61cf356/3564b/first-post.jpg 1500w,/static/4d90967ddb1f701231306b45a61cf356/8a549/first-post.jpg 3000w,/static/4d90967ddb1f701231306b45a61cf356/e49ee/first-post.jpg 6000w"
+              style={
+                Object {
+                  "backgroundColor": undefined,
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "opacity": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "transform": "translateZ(0)",
+                  "transition": "opacity 250ms linear",
+                  "width": "100%",
+                  "willChange": "opacity",
+                }
+              }
+            />
+          </picture>
+        </noscript>
+        <script
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "const t=\\"undefined\\"!=typeof HTMLImageElement&&\\"loading\\"in HTMLImageElement.prototype;if(t){const t=document.querySelectorAll(\\"img[data-main-image]\\");for(let e of t){e.dataset.src&&(e.setAttribute(\\"src\\",e.dataset.src),e.removeAttribute(\\"data-src\\")),e.dataset.srcset&&(e.setAttribute(\\"srcset\\",e.dataset.srcset),e.removeAttribute(\\"data-srcset\\"));const t=e.parentNode.querySelectorAll(\\"source[data-srcset]\\");for(let e of t)e.setAttribute(\\"srcset\\",e.dataset.srcset),e.removeAttribute(\\"data-srcset\\");e.complete&&(e.style.opacity=1)}}",
+            }
+          }
+          type="module"
+        />
+      </div>
+      <p
+        className="sc-hKwDye iunbHj text-end"
       >
-        
-          
-        <code
-          slot="code"
+        Photo by 
+        <a
+          href="https://unsplash.com/@andrewtneel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        >
+          Andrew Neel
+        </a>
+         on
+         
+        <a
+          href="https://unsplash.com/s/photos/blog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        >
+          Unsplash
+        </a>
+      </p>
+      <div
+        className="sc-dkPtRN gJTmoQ"
+      >
+        <h1
+          id="Hello-World"
+          style={
+            Object {
+              "position": "relative",
+            }
+          }
+        >
+          Hello, World!
+          <a
+            aria-label="Hello World permalink"
+            className="anchor after"
+            href="#Hello-World"
+          >
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              height="16"
+              version="1.1"
+              viewBox="0 0 16 16"
+              width="16"
+            >
+              <path
+                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"
+                fillRule="evenodd"
+              />
+            </svg>
+          </a>
+        </h1>
+        <p>
+          This is my first blog post! Isn't it great?
+        </p>
+        <deckgo-highlight-code
+          language="go"
+          line-numbers="true"
+          terminal="none"
+          theme="vscode"
         >
           
+          
+          <code
+            slot="code"
+          >
+            
 package main
 
 import "fmt"
@@ -238,21 +241,22 @@ func main() {
 }
 
 
-        </code>
+          </code>
+          
         
-        
-      </deckgo-highlight-code>
-    </div>
-  </main>
-  <footer
-    className="footer text-center pt-2"
-  >
-    <span
-      className="text-muted"
+        </deckgo-highlight-code>
+      </div>
+    </main>
+    <footer
+      className="sc-gsDKAQ jgOvvg footer text-center pt-2"
     >
-      © 
-      2022
-    </span>
-  </footer>
+      <span
+        className="text-muted"
+      >
+        © 
+        2022
+      </span>
+    </footer>
+  </div>
 </div>
 `;
