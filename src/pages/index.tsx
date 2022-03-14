@@ -1,6 +1,3 @@
-import 'bootstrap-icons/font/bootstrap-icons.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 import { graphql, Link } from 'gatsby';
 import * as React from 'react';
 import { useState } from 'react';
