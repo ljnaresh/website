@@ -72,5 +72,6 @@ module.exports = {
       __key: 'posts',
     },
     'gatsby-plugin-styled-components',
+    'gatsby-plugin-sass',
   ],
 };
