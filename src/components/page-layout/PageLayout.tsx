@@ -16,19 +16,24 @@ const StyledFooter = styled.footer`
   border-top-color: rgba(0, 0, 0, 0.125);
 `;
 
-const PageLayout = (props: React.PropsWithChildren<{}>) => {
+type PageLayoutProps = {
+  children: React.ReactNode;
+  className?: string;
+};
+
+const PageLayout = ({ children, className = '' }: PageLayoutProps) => {
   const currentYear = new Date().getFullYear();
+  const classes = `d-flex flex-column min-vh-100 ${className}`.trim();
+
   return (
-    <>
-      <StyledContainerDiv>
-        <Container className='d-flex flex-column min-vh-100'>
-          <main className='flex-fill'>{props.children}</main>
-          <StyledFooter className='footer text-center pt-2'>
-            <span className='text-muted'>© {currentYear}</span>
-          </StyledFooter>
-        </Container>
-      </StyledContainerDiv>
-    </>
+    <StyledContainerDiv>
+      <Container className={classes}>
+        <main className='flex-fill'>{children}</main>
+        <StyledFooter className='footer text-center pt-2'>
+          <span className='text-muted'>© {currentYear}</span>
+        </StyledFooter>
+      </Container>
+    </StyledContainerDiv>
   );
 };
 

@@ -3,7 +3,7 @@
 module.exports = {
   pathPrefix: `/website`,
   siteMetadata: {
-    title: ``,
+    title: `Blog`,
     siteUrl: `http://ljnaresh.github.io/website`,
   },
   plugins: [
