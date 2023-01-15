@@ -1,50 +1,20 @@
-/** @type {import('gatsby').GatsbyConfig} */
-
+/**
+ * @type {import('gatsby').GatsbyConfig}
+ */
 module.exports = {
-  pathPrefix: `/website`,
   siteMetadata: {
-    title: `Blog`,
-    siteUrl: `http://ljnaresh.github.io/website`,
+    title: `nareshlakyajagadisha.github.io`,
+    siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
     'gatsby-plugin-image',
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-sharp',
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 840,
-            },
-          },
-        ],
-      },
-    },
     'gatsby-transformer-sharp',
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
-        extensions: ['.mdx', '.md'],
-        gatsbyRemarkPlugins: [
-          {
-            resolve: `gatsby-remark-autolink-headers`,
-            options: {
-              maintainCase: true,
-              removeAccents: true,
-              isIconAfterHeader: true,
-            },
-          },
-          {
-            resolve: `gatsby-remark-highlight-code`,
-            options: {
-              terminal: 'none',
-              theme: 'vscode',
-              lineNumbers: true,
-            },
-          },
-        ],
+        extensions: [`.md`, `.mdx`],
       },
     },
     {
@@ -71,7 +41,5 @@ module.exports = {
       },
       __key: 'posts',
     },
-    'gatsby-plugin-styled-components',
-    'gatsby-plugin-sass',
   ],
 };
