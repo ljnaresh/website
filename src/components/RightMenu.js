@@ -1,7 +1,9 @@
+import React from 'react';
+
 import { useState } from 'react';
 import { BrightnessHighFill, MoonFill } from 'react-bootstrap-icons';
 
-import styles from './RightMenu.module.css';
+import * as styles from './RightMenu.module.css';
 
 const RightMenu = () => {
   const [isDarkModeActivated, setIsDarkModeActivated] = useState(false);
@@ -13,7 +15,7 @@ const RightMenu = () => {
 
   const themeToggleButton = (
     <div>
-      <button type='button' className={`d-flex ${styles['theme-toggle-button']}`} onClick={toggleDarkMode}>
+      <button type='button' className={`d-flex ${styles['themeToggleButton']}`} onClick={toggleDarkMode}>
         {isDarkModeActivated ? <BrightnessHighFill /> : <MoonFill />}
       </button>
     </div>

@@ -1,4 +1,6 @@
-import styles from './Layout.module.css';
+import React from 'react';
+
+import * as styles from './Layout.module.css';
 import LeftMenu from './LeftMenu';
 import RightMenu from './RightMenu';
 

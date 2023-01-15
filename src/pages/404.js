@@ -1,49 +1,46 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import React from 'react';
 
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
+import Heading from '../components/Heading';
+import Layout from '../components/Layout';
+import * as styles from '../styles/shared.module.css';
 
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
-
-const NotFoundPage = () => {
+const ErrorPage = () => {
+  console.log(styles);
   return (
-    <main style={pageStyles}>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry 😔, we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
-  )
-}
+    <Layout>
+      <div className='row d-flex'>
+        <div className='col-12'>
+          <Heading>Something's wrong here.</Heading>
+          <p>
+            I have no idea how you landed on this page! You can try going back{' '}
+            <a className={styles['link']} href='/'>
+              home
+            </a>{' '}
+            or try your luck by clicking any of the links in the navigation on the left.
+          </p>
+        </div>
+        <div className='col-12 col-lg-6'>
+          <img src={require('../images/fox.jpg')} className='img-fluid' alt='Fox' />
+          <p className='my-1'>
+            Photo by{' '}
+            <a
+              className={styles['link']}
+              href='https://unsplash.com/@alex_andrews?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'
+            >
+              Alexander Andrews
+            </a>{' '}
+            on{' '}
+            <a
+              className={styles['link']}
+              href='https://unsplash.com/images/feelings/funny?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'
+            >
+              Unsplash
+            </a>
+          </p>
+        </div>
+      </div>
+    </Layout>
+  );
+};
 
-export default NotFoundPage
-
-export const Head = () => <title>Not found</title>
+export default ErrorPage;

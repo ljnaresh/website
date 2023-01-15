@@ -1,4 +1,6 @@
-import styles from './LeftMenu.module.css';
+import React from 'react';
+
+import * as styles from './LeftMenu.module.css';
 
 const LeftMenu = () => {
   return (

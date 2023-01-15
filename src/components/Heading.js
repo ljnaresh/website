@@ -1,4 +1,6 @@
-import styles from './Heading.module.css';
+import React from 'react';
+
+import * as styles from './Heading.module.css';
 
 const Heading = (props) => {
   switch (props.size) {

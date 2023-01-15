@@ -1,4 +1,4 @@
-.theme-toggle-button {
+.themeToggleButton {
   border: none;
   padding: 0.5em;
   border-radius: 50%;
@@ -7,6 +7,6 @@
   font-size: medium;
 }
 
-.theme-toggle-button:hover {
+.themeToggleButton:hover {
   background-color: var(--secondary-color);
 }
