@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #ffffff;
+  --primary-color-hover: #f7f7f7;
+  --secondary-color: #333333;
+  --accent-color: #006d7e;
+  --primary-font: 'Lato', sans-serif;
+  --secondary-font: 'Open Sans', sans-serif;
+}
+
+.dark {
+  --primary-color: #2e2e2e;
+  --primary-color-hover: #262626;
+  --secondary-color: #b0b0b0;
+  --accent-color: #61dafb;
+}
