@@ -1,0 +1,13 @@
+body {
+  font-family: var(--secondary-font);
+  background: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.layout {
+  min-height: 100vh;
+}
+
+.layout footer {
+  border-color: var(--secondary-color) !important;
+}
