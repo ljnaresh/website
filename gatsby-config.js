@@ -9,6 +9,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-image',
     'gatsby-plugin-sitemap',
+<<<<<<< HEAD
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
@@ -16,7 +17,11 @@ module.exports = {
       options: {
         extensions: [`.md`, `.mdx`],
       },
-    },
+=======
+    'gatsby-plugin-mdx',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-remark',
+    'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -24,10 +29,27 @@ module.exports = {
         path: './src/images/',
       },
       __key: 'images',
+>>>>>>> 8cf3db7 (feat: read blog posts from filesystem)
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+<<<<<<< HEAD
+        name: 'images',
+        path: './src/images/',
+      },
+      __key: 'images',
+=======
+        name: 'pages',
+        path: './src/pages/',
+      },
+      __key: 'pages',
+>>>>>>> 8cf3db7 (feat: read blog posts from filesystem)
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+<<<<<<< HEAD
         name: 'pages',
         path: './src/pages/',
       },
@@ -36,6 +58,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+=======
+>>>>>>> 8cf3db7 (feat: read blog posts from filesystem)
         name: `posts`,
         path: `${__dirname}/posts`,
       },
