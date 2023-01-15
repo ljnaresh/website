@@ -1,0 +1,14 @@
+.blogPostPreview {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  border-color: var(--secondary-color);
+}
+
+.blogPostPreview:hover {
+  background-color: var(--primary-color-hover);
+}
+
+.blogPostPreviewTag {
+  color: var(--primary-color);
+  background-color: var(--accent-color);
+}
