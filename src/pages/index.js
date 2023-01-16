@@ -13,8 +13,12 @@ function IndexPage({ data }) {
         <div className='row align-items-start gy-2 g-lg-4'>
           <Heading className='mb-0 p-0'>Recent posts</Heading>
           {allMdx.nodes.map((post) => {
-            const { title, summary, tags, slug } = post.frontmatter;
-            return <BlogPostPreview key={post.id} title={title} subtitle={summary} tags={tags} slug={slug} />;
+            const { fields } = post;
+            const { title, summary, tags } = post.frontmatter;
+            console.log(fields.slug);
+            return (
+              <BlogPostPreview key={fields.slug} title={title} subtitle={summary} tags={tags} slug={fields.slug} />
+            );
           })}
         </div>
       </div>
@@ -26,8 +30,10 @@ export const pageQuery = graphql`
   query MyQuery {
     allMdx {
       nodes {
-        frontmatter {
+        fields {
           slug
+        }
+        frontmatter {
           summary
           tags
           title

@@ -21,7 +21,7 @@ const BlogPostPreview = (props) => {
               </span>
             );
           })}
-          <a href={`/${slug}`} className='stretched-link'>
+          <a href={`${slug}`} className='stretched-link'>
             {''}
           </a>
         </div>
