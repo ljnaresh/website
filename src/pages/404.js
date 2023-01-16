@@ -1,8 +1,9 @@
 import React from 'react';
 
+import * as styles from '../styles/shared.module.css';
+
 import Heading from '../components/Heading';
 import Layout from '../components/Layout';
-import * as styles from '../styles/shared.module.css';
 
 const ErrorPage = () => {
   console.log(styles);
