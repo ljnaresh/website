@@ -10,6 +10,7 @@ hero_image_source: Unsplash
 hero_image_source_link: 'https://unsplash.com/s/photos/blog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'
 tags: [blog, first-post]
 draft: false
+slug: my-first-post
 ---
 
 # Hello, World

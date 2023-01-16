@@ -1,11 +1,10 @@
 import React from 'react';
-import { useEffect } from 'react';
 
 import * as styles from './BlogPostPreview.module.css';
 import Heading from './Heading';
 
 const BlogPostPreview = (props) => {
-  const { title, subtitle, tags } = props;
+  const { title, subtitle, tags, slug } = props;
 
   return (
     <div className='col-12 p-0'>
@@ -22,7 +21,7 @@ const BlogPostPreview = (props) => {
               </span>
             );
           })}
-          <a href='/' className='stretched-link'>
+          <a href={`/${slug}`} className='stretched-link'>
             {''}
           </a>
         </div>

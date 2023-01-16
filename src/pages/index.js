@@ -6,15 +6,15 @@ import Heading from '../components/Heading';
 import Layout from '../components/Layout';
 
 function IndexPage({ data }) {
-  const { allMarkdownRemark } = data;
+  const { allMdx } = data;
   return (
     <Layout>
       <div className='container'>
         <div className='row align-items-start gy-2 g-lg-4'>
           <Heading className='mb-0 p-0'>Recent posts</Heading>
-          {allMarkdownRemark.nodes.map((post) => {
-            const { title, summary, tags } = post.frontmatter;
-            return <BlogPostPreview key={post.id} title={title} subtitle={summary} tags={tags} />;
+          {allMdx.nodes.map((post) => {
+            const { title, summary, tags, slug } = post.frontmatter;
+            return <BlogPostPreview key={post.id} title={title} subtitle={summary} tags={tags} slug={slug} />;
           })}
         </div>
       </div>
@@ -24,14 +24,14 @@ function IndexPage({ data }) {
 
 export const pageQuery = graphql`
   query MyQuery {
-    allMarkdownRemark {
+    allMdx {
       nodes {
         frontmatter {
+          slug
+          summary
           tags
           title
-          summary
         }
-        id
       }
     }
   }
