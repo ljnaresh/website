@@ -1,3 +1,5 @@
+import { graphql } from 'gatsby';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import React from 'react';
 
 import * as styles from '../styles/shared.module.css';
@@ -5,8 +7,9 @@ import * as styles from '../styles/shared.module.css';
 import Heading from '../components/Heading';
 import Layout from '../components/Layout';
 
-const ErrorPage = () => {
-  console.log(styles);
+const ErrorPage = ({ data }) => {
+  console.log(data);
+  const foxImage = getImage(data.allImageSharp.nodes[0].gatsbyImageData);
   return (
     <Layout>
       <div className='row d-flex'>
@@ -21,7 +24,7 @@ const ErrorPage = () => {
           </p>
         </div>
         <div className='col-12 col-lg-6'>
-          <img src={require('../images/fox.jpg')} className='img-fluid' alt='Fox' />
+          <GatsbyImage image={foxImage} alt={data.allImageSharp.nodes[0].fixed.originalName} className='mb-1' />
           <p className='my-1'>
             Photo by{' '}
             <a
@@ -43,5 +46,18 @@ const ErrorPage = () => {
     </Layout>
   );
 };
+
+export const pageQuery = graphql`
+  query MyQuery {
+    allImageSharp(filter: { fixed: { originalName: { eq: "fox.jpg" } } }) {
+      nodes {
+        gatsbyImageData(placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
+        fixed {
+          originalName
+        }
+      }
+    }
+  }
+`;
 
 export default ErrorPage;
