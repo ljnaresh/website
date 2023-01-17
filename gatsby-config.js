@@ -2,9 +2,10 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: '/website',
   siteMetadata: {
-    title: `nareshlakyajagadisha.github.io`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `Blog`,
+    siteUrl: `https://nareshlakyajagadisha.github.io/website/`,
   },
   plugins: [
     'gatsby-plugin-image',

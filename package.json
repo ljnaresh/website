@@ -1,21 +1,13 @@
 {
   "name": "nareshlakyajagadisha.github.io",
-  "version": "1.0.0",
-  "private": true,
   "description": "nareshlakyajagadisha.github.io",
-  "author": "nareshlakyajagadisha",
+  "version": "2.0.0",
+  "author": {
+    "name": "nareshlakyajagadisha"
+  },
   "keywords": [
     "gatsby"
   ],
-  "scripts": {
-    "cz": "cz",
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "prepare": "husky install"
-  },
   "dependencies": {
     "@fontsource/lato": "^4.5.10",
     "@fontsource/open-sans": "^4.5.13",
@@ -37,8 +29,25 @@
   },
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
+    "gh-pages": "^4.0.0",
     "husky": "^8.0.0",
     "pretty-quick": "^3.1.3"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "cz": "cz",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "develop": "gatsby develop",
+    "prepare": "husky install",
+    "serve": "gatsby serve",
+    "start": "gatsby develop"
+  },
+  "private": true,
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
   "prettier": {
     "bracketSpacing": true,
@@ -46,10 +55,5 @@
     "printWidth": 120,
     "semi": true,
     "singleQuote": true
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }
