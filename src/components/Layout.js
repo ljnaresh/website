@@ -21,7 +21,7 @@ const Layout = (props) => {
       <section className='mx-0'>
         <footer className='col-12 col-sm-12 text-center p-3 border-top'>
           <p>
-            <small>© Copyright 2023 Naresh Lakya Jagadisha</small>
+            <small>© Copyright 2022 Naresh Lakya Jagadisha</small>
           </p>
         </footer>
       </section>
