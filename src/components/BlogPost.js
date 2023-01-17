@@ -1,5 +1,6 @@
 import React from 'react';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import { CalendarFill, ClockFill } from 'react-bootstrap-icons';
 
 import * as styles from '../styles/shared.module.css';
 import ReactMarkdown from 'react-markdown';
@@ -10,8 +11,14 @@ const BlogPost = (props) => {
   const heroImage = getImage(post.frontmatter.hero_image);
   return (
     <>
-      <p className='mb-4 d-inline-block float-start'>{` ${post.frontmatter.date}`.toUpperCase()}</p>
-      <p className='mb-4 d-inline-block float-end'>{` ${Math.ceil(post.fields.timeToRead.time / 60000)}`} min</p>
+      <p className='mb-4 d-inline-block float-start ali'>
+        <CalendarFill />
+        {` ${post.frontmatter.date}`.toUpperCase()}
+      </p>
+      <p className='mb-4 d-inline-block float-end'>
+        <ClockFill />
+        {` ${Math.ceil(post.fields.timeToRead.time / 60000)}`} min
+      </p>
       <GatsbyImage image={heroImage} alt={post.frontmatter.hero_image_alt_text} className='mb-1' />
       <p>
         Photo by{' '}
