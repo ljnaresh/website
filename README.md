@@ -31,7 +31,7 @@ This project follows the [Conventional Commits specification](https://www.conven
 Committing code changes using Commitizen
 
 ```bash
-npm run cz
+npm run cm
 ```
 
 ## Code formatting
