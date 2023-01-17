@@ -1,4 +1,4 @@
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import React from 'react';
 
@@ -17,9 +17,9 @@ const ErrorPage = ({ data }) => {
           <Heading>Something's wrong here.</Heading>
           <p>
             I have no idea how you landed on this page! You can try going back{' '}
-            <a className={styles['link']} href='/'>
+            <Link className={styles['link']} to='/'>
               home
-            </a>{' '}
+            </Link>{' '}
             or try your luck by clicking any of the links in the navigation on the left.
           </p>
         </div>

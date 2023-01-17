@@ -1,3 +1,4 @@
+import { Link } from 'gatsby';
 import React from 'react';
 
 import * as styles from './BlogPostPreview.module.css';
@@ -21,9 +22,9 @@ const BlogPostPreview = (props) => {
               </span>
             );
           })}
-          <a href={`${slug}`} className='stretched-link'>
+          <Link to={`${slug}`} className='stretched-link'>
             {''}
-          </a>
+          </Link>
         </div>
       </article>
     </div>
