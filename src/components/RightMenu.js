@@ -1,42 +1,22 @@
 import React from 'react';
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { BrightnessHighFill, MoonFill } from 'react-bootstrap-icons';
 
 import * as styles from './RightMenu.module.css';
 
 const RightMenu = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(localStorage.getItem('prefersDarkMode'));
 
-  useEffect(() => {
-    if (darkMode) {
-      localStorage.setItem('prefersDarkMode', 'true');
-      document.body.classList.add('dark');
-    } else {
-      localStorage.setItem('prefersDarkMode', 'false');
-      document.body.classList.remove('dark');
-    }
-  }, [darkMode]);
-
-  useEffect(() => {
-    const storedPreference = localStorage.getItem('darkModePreference');
-    if (storedPreference) {
-      setDarkMode(JSON.parse(storedPreference));
-    } else {
-      const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      setDarkMode(prefersDarkMode);
-    }
-  }, []);
+  const toggleDarkMode = () => {
+    document.body.classList.toggle('dark');
+    localStorage.setItem('prefersDarkMode', !darkMode);
+    setDarkMode(!darkMode);
+  };
 
   const themeToggleButton = (
     <div>
-      <button
-        type='button'
-        className={`d-flex ${styles['themeToggleButton']}`}
-        onClick={() => {
-          setDarkMode(!darkMode);
-        }}
-      >
+      <button type='button' className={`d-flex ${styles['themeToggleButton']}`} onClick={toggleDarkMode}>
         {darkMode ? <BrightnessHighFill /> : <MoonFill />}
       </button>
     </div>
