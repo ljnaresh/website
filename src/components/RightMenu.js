@@ -6,7 +6,7 @@ import { BrightnessHighFill, MoonFill } from 'react-bootstrap-icons';
 import * as styles from './RightMenu.module.css';
 
 const RightMenu = () => {
-  const [darkMode, setDarkMode] = useState(localStorage.getItem('prefersDarkMode'));
+  const [darkMode, setDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
     document.body.classList.toggle('dark');
