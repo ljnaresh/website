@@ -1,3 +1,10 @@
+## <small>2.0.1 (2023-01-21)</small>
+
+- fix: dark mode toggle ([aec8e7d](https://github.com/nareshlakyajagadisha/website/commit/aec8e7d))
+- fix: links ([9a6de68](https://github.com/nareshlakyajagadisha/website/commit/9a6de68))
+- feat: dark mode ([7a470e2](https://github.com/nareshlakyajagadisha/website/commit/7a470e2))
+- feat: syntax highligthing ([5d2209d](https://github.com/nareshlakyajagadisha/website/commit/5d2209d))
+
 ## 2.0.0 (2023-01-17)
 
 - build: bumpedrc file for release and versioning ([0e5e794](https://github.com/nareshlakyajagadisha/website/commit/0e5e794))
