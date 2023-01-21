@@ -1,3 +1,7 @@
+## <small>2.0.3 (2023-01-21)</small>
+
+- fix: post date correction ([9f0557f](https://github.com/nareshlakyajagadisha/website/commit/9f0557f))
+
 ## <small>2.0.2 (2023-01-21)</small>
 
 - docs: solid principles ([99cbba6](https://github.com/nareshlakyajagadisha/website/commit/99cbba6))
