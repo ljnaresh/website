@@ -1,7 +1,7 @@
 ---
 title: Introduction to SOLID Principles
 summary: Peek into the five design principles of OOP
-date: 2023-01-21
+date: 2023-01-22
 hero_image: ./tools.jpg
 hero_image_alt_text: computer
 hero_image_shutterbug: Joanna Kosinska
