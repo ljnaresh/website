@@ -1,3 +1,10 @@
+## <small>2.0.2 (2023-01-21)</small>
+
+- docs: solid principles ([99cbba6](https://github.com/nareshlakyajagadisha/website/commit/99cbba6))
+- style: console log removal ([802068a](https://github.com/nareshlakyajagadisha/website/commit/802068a))
+- fix: dark mode initial state ([2df5242](https://github.com/nareshlakyajagadisha/website/commit/2df5242))
+- fix: link styling in rendered markdown ([3bb0fe9](https://github.com/nareshlakyajagadisha/website/commit/3bb0fe9))
+
 ## <small>2.0.1 (2023-01-21)</small>
 
 - fix: dark mode toggle ([aec8e7d](https://github.com/nareshlakyajagadisha/website/commit/aec8e7d))
