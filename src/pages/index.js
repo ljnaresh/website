@@ -11,7 +11,6 @@ function IndexPage({ data }) {
     <Layout>
       <div className='container'>
         <div className='row align-items-start gy-2 g-lg-4'>
-          {console.log(allMdx.nodes)}
           <Heading className='mb-0 p-0'>Recent posts</Heading>
           {allMdx.nodes.map((post) => {
             const { fields } = post;
