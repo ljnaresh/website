@@ -59,6 +59,11 @@ const BlogPost = (props) => {
           h4: (props) => <Heading size={4}>{props.children}</Heading>,
           h5: (props) => <Heading size={5}>{props.children}</Heading>,
           h6: (props) => <Heading size={6}>{props.children}</Heading>,
+          a: (props) => (
+            <a href={props.href} className={`${styles['link']}`}>
+              {props.children}
+            </a>
+          ),
         }}
       />
     </>
